@@ -1,0 +1,138 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-image: url(https://media.istockphoto.com/id/157622968/es/foto/textura-de-fieltro.jpg?s=612x612&w=0&k=20&c=mmJE_JtK-IGwMGLnvaEPfaKntrGGk_hH4X_I9CvP7yU=);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200%;
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.card-container {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.counter {
+  font-weight: bold;
+  font-size: 40px;
+  padding: 10px 150px 10px 150px;
+  background-image: url(https://media.istockphoto.com/id/476618574/vector/dark-seamless-vector-background-with-3d-effect.jpg?s=612x612&w=0&k=20&c=GohZJncDSs7doRQVtFkmnsrmHv7HiTolsD9hx8AVg1Y=);
+  color: red;
+  text-align: center;
+  margin-bottom: 0;
+  border-radius: 20px;
+  border: none;
+  background-size: cover;
+  z-index: -2;
+  margin-bottom: 15px;
+}
+
+.card {
+  width: 400px;
+  height: 500px;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: rgb(255, 255, 255);
+  box-shadow: rgba(255, 255, 255, 0.07);
+  border-width: 3px;
+}
+
+.card-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.size-slider {
+  color: black;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+#button {
+  background-image: url(https://media.istockphoto.com/id/476618574/vector/dark-seamless-vector-background-with-3d-effect.jpg?s=612x612&w=0&k=20&c=GohZJncDSs7doRQVtFkmnsrmHv7HiTolsD9hx8AVg1Y=);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 40px 70px;
+  font-size: 40px;
+  color: white;
+  border: none;
+  border-radius: 30%;
+  box-shadow: 0 6px green;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+#button:active {
+  box-shadow: 0 3px black;
+  transform: translateY(3px);
+}
+
+.top-suit,
+.bottom-suit {
+  position: absolute;
+}
+.top-suit {
+  top: 10px;
+  left: 18px;
+  font-size: 130px;
+  padding: 0;
+}
+.bottom-suit {
+  bottom: 18px;
+  right: 18px;
+  transform: rotate(180deg);
+  font-size: 130px;
+  padding: 0;
+}
+
+.bottom-suit {
+  bottom: 18px;
+  right: 18px;
+  transform: rotate(180deg);
+  font-size: 130px;
+  padding: 0;
+}
+
+.number {
+  font-size: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+}
+
+.♦,
+.♥ {
+  color: red;
+}
+/* "♠", "♥", "♦", "♣" */
